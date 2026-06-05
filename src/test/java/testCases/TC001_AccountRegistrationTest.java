@@ -17,7 +17,7 @@ import java.time.Duration;
 public class TC001_AccountRegistrationTest extends BaseClass {
 
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void verify_account_registration(){
 
         logger.info("********* Starting TC001_AccountRegistrationTest *********");

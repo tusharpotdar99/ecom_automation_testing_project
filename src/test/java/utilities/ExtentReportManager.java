@@ -31,8 +31,8 @@ public class ExtentReportManager implements ITestListener {
         extent.setSystemInfo("Application","OpenCart");
         extent.setSystemInfo("Module", "Admin");
         extent.setSystemInfo("Sub Module","Customers");
-        extent.setSystemInfo();
-
+        extent.setSystemInfo("Tester", "Tushar Potdar");
+        extent.setSystemInfo("Environment", "QA");
 
     }
 

@@ -340,3 +340,94 @@ java.lang.IllegalArgumentException: Keys to send should be a not null CharSequen
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1447) [?:?]
+2026-05-27 13:47:38.050 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest *********
+2026-05-27 13:47:41.404 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest *********
+2026-05-27 13:47:49.589 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest *********
+2026-05-27 13:47:51.994 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest *********
+2026-05-27 14:15:37.851 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 14:15:41.163 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 14:15:41.191 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 14:15:43.336 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 14:15:54.356 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 14:15:57.329 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 14:21:24.267 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:21:27.856 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:21:27.876 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 14:21:30.137 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 14:21:30.145 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 14:21:32.621 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 14:21:43.128 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:21:45.614 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:22:48.644 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:22:53.398 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 14:22:53.416 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 14:22:55.897 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 14:22:55.911 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 14:22:58.451 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 14:22:58.472 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 14:23:01.157 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 14:23:11.427 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 14:23:13.782 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:13:19.007 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:13:21.071 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:13:21.079 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 15:13:22.486 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 15:13:22.502 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:13:23.147 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:13:25.377 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:13:25.394 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 15:13:26.876 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 15:19:59.896 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:20:06.625 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:20:06.634 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 15:20:15.928 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 15:20:15.940 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:20:19.297 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:20:19.307 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:20:22.700 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:20:22.710 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 15:20:25.115 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 15:20:33.008 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:20:35.448 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:22:49.936 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:22:53.077 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:22:53.082 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 15:22:54.945 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest with invalid credentials*********
+2026-05-27 15:22:54.952 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:22:56.277 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:22:56.285 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:22:57.826 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:22:57.843 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 15:22:59.531 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 15:23:08.315 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:23:10.902 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:24:11.274 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Empty Credential *********
+2026-05-27 15:24:12.225 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest with Invalid credentials *********
+2026-05-27 15:24:14.842 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:24:17.184 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:24:17.188 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:24:18.651 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Password *********
+2026-05-27 15:24:18.664 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-05-27 15:24:20.161 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Valid Credential  *********
+2026-05-27 15:26:23.848 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:31:32.010 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:31:35.329 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:31:44.793 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-27 15:31:46.397 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:19:16.747 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:19:20.332 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:21:40.487 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:21:45.859 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:23:04.241 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:23:07.645 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:24:42.309 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-05-31 00:24:44.397 [main] INFO  testCases.TC002_LoginTest - ********* Finished TC_002_LoginTest With Invalid Email *********
+2026-06-04 22:52:22.510 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-06-04 22:52:36.813 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
+2026-06-04 22:53:52.720 [main] INFO  testCases.TC001_AccountRegistrationTest - ********* Starting TC001_AccountRegistrationTest *********
+2026-06-04 22:53:53.275 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link 
+2026-06-04 22:53:55.975 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link 
+2026-06-04 22:53:56.024 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer Details
+2026-06-04 22:54:07.948 [main] ERROR testCases.TC001_AccountRegistrationTest - Test Failed...
+2026-06-04 22:54:11.375 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Invalid Email *********
+2026-06-04 22:54:19.969 [main] INFO  testCases.TC002_LoginTest - ********* Starting TC_002_LoginTest With Valid Credential *********
