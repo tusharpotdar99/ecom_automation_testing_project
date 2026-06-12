@@ -1,11 +1,12 @@
 package testCases;
 
+import Base.BaseClass;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.HomePage;
-import pageObjects.LoginPage;
-import pageObjects.MyAccountPage;
+import PageObjects.HomePage;
+import PageObjects.LoginPage;
+import PageObjects.MyAccountPage;
 import utilities.CaptureScreen;
 
 import java.io.IOException;

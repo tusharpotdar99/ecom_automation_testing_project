@@ -1,7 +1,5 @@
-package pageObjects;
+package Base;
 
-import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

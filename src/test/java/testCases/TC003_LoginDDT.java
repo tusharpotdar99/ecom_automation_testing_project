@@ -1,11 +1,11 @@
 package testCases;
 
+import Base.BaseClass;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageObjects.HomePage;
-import pageObjects.LoginPage;
-import pageObjects.MyAccountPage;
+import PageObjects.HomePage;
+import PageObjects.LoginPage;
+import PageObjects.MyAccountPage;
 import utilities.DataProviders;
 
 public class TC003_LoginDDT extends BaseClass {

@@ -1,18 +1,10 @@
 package testCases;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import Base.BaseClass;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageObjects.AccountRegistrationPage;
-import pageObjects.BasePage;
-import pageObjects.HomePage;
-
-import java.time.Duration;
+import PageObjects.AccountRegistrationPage;
+import PageObjects.HomePage;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
 
