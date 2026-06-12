@@ -5,12 +5,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class AccountRegistrationPage extends BasePage {
 
 
     public AccountRegistrationPage(WebDriver driver){
         super(driver);
     }
+
+    @FindBy(xpath = "//ul[@class='breadcrumb']")
+    WebElement breadcrumb;
+
+    @FindBy(xpath = "//a[normalize-space()='Register']")
+    WebElement breadcrumbRegister;
+
+    @FindBy(xpath = "//h1[normalize-space()='Register Account']")
+    WebElement txtRegisterAccount;
 
     @FindBy(xpath = "//input[@id='input-firstname']")
     WebElement textFirstName;
@@ -30,20 +41,39 @@ public class AccountRegistrationPage extends BasePage {
     @FindBy(xpath = "//input[@id='input-confirm']")
     WebElement textConfirmPassword;
 
+    @FindBy(xpath = "//input[@value='1'][@name='newsletter']")
+    WebElement radioNewsletterYes;
+
+    @FindBy(xpath = "//input[@value='0'][@name='newsletter']")
+    WebElement radioNewsletterNo;
+
     @FindBy(xpath = "//label[normalize-space()='Yes']")
     WebElement radioBoxSubscribe;
 
+    @FindBy(xpath = "//label[normalize-space()='No']")
+    WebElement radioBoxUnSubscribe;
+
     @FindBy(xpath = "//input[@name='agree']")
-    WebElement checkPolicy;
+    WebElement checkboxPolicy;
 
     @FindBy(xpath = "//input[@value='Continue']")
-    WebElement buttonContinue;
+    WebElement btnContinue;
 
     @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
-    WebElement messageConfirmation;
+    WebElement textsuccessMessageConfirmation;
 
     @FindBy(xpath = "//a[normalize-space()='Continue']")
-    WebElement ContinueAfterRegister;
+    WebElement btnContinueAfterRegister;
+
+    @FindBy(xpath = "//a[normalize-space()='contact us']")
+    WebElement linkContactUsOnSuccess;
+
+    @FindBy(xpath = "//aside//a")
+    List<WebElement> sidePanelLinks;
+
+    @FindBy(xpath = "//div[contains(@class,'alert-danger')]")
+    WebElement warningMessage;
+
 
     public void setFirstName(String firstName){
         textFirstName.sendKeys(firstName);
@@ -73,39 +103,64 @@ public class AccountRegistrationPage extends BasePage {
         radioBoxSubscribe.click();
     }
 
-    public void checkPolicyCheckbox(){
-        checkPolicy.click();
+    public void selectNewsletter(String option){
+
+        if(option.equalsIgnoreCase("yes")){
+
+            radioNewsletterYes.click();
+        }
+        else{
+
+            radioNewsletterNo.click();
+        }
     }
 
-    public void clickContinue(){
-        buttonContinue.click();
+    public void checkPolicyCheckbox(){
+        checkboxPolicy.click();
+    }
 
-//        buttonContinue.submit();
+    public void clickContinue() {
+        btnContinue.click();
+    }
 
-//        Actions act = new Actions(driver);
-//        act.moveToElement(buttonContinue).click().perform();
+    public boolean isRegistrationPageDisplayed(){
+        return txtRegisterAccount.isDisplayed();
+    }
 
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("arguments[0].click();",buttonContinue);
+    public String getWarningMessage(){
+        return warningMessage.getText();
+    }
 
-//        buttonContinue.sendKeys(Keys.RETURN);
-
-//        WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(11));
-//        mywait.until(ExpectedConditions.elementToBeClickable(buttonContinue)).click();
-
+    public boolean isRegistrationSuccessful(){
+        return textsuccessMessageConfirmation.isDisplayed();
     }
 
     public String getConfirmationMessage(){
         try{
-            return (messageConfirmation.getText());
+            return (textsuccessMessageConfirmation.getText());
         } catch (Exception e){
             return (e.getMessage());
         }
     }
 
+    public void clickSidePanelLink(String linkName){
+        for(WebElement link : sidePanelLinks){
+            if(link.getText().equalsIgnoreCase(linkName)){
+                link.click();
+                break;
+            }
+        }
+    }
+
+
+    }
 
 
 
 
 
-}
+
+
+
+
+
